@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css?family=Merriweather:700');
+@font-face {
+    font-family: CooperHewitt;
+    src: url(../font/CooperHewitt-WebFonts-public/CooperHewitt-Book.woff);
+    weight: book;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2, a {
+	font-family: $primary-font;
+}
+
+h1, h2 {
+	text-transform: uppercase;
+}
+a {
+	font-size: 16px;
+}
+p {
+	font-family: $secondary-font;
+}
+
+img {
+	width: 100%;
+}
+section {
+	padding: 20px 25px;
+}

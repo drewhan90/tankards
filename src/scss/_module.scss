@@ -1,0 +1,49 @@
+// Top Nav Bar
+header .top-nav {
+	background-color: $black;
+	padding: 20px 30px;
+}
+// Button #1
+.primary-btn {
+	padding: 14px 20px;
+	background-color: $other-color;
+	color: $black;
+	text-transform: uppercase;
+    text-decoration: none;
+}
+.primary-btn:hover {
+	color: $black;
+	text-decoration: none;
+	opacity: 0.8;
+}
+.primary-container {
+    color: #FFF;
+	background-color: $primary-color;
+}
+.secondary-bg {
+	background-color: $secondary-color;
+}
+
+.primary-menu {
+    float: right;
+    display: inline-block;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    width: 79%;
+    text-align: right;
+}
+
+.primary-menu li {
+    display: inline-block;
+}
+
+.primary-menu a {
+    padding: 10px;
+    color: #FFF;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.center-content {
+    position: absolute;
+}
