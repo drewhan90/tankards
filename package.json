@@ -20,5 +20,8 @@
   "devDependencies": {
     "node-sass": "^4.5.0",
     "nodemon": "^1.11.0"
+  },
+  "dependencies": {
+    "chart.js": "^2.5.0"
   }
 }
