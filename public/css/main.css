@@ -1,0 +1,127 @@
+/************	 BASE
+\************/
+@import url("https://fonts.googleapis.com/css?family=Merriweather:700");
+@font-face {
+  font-family: CooperHewitt;
+  src: url(../font/CooperHewitt-WebFonts-public/CooperHewitt-Book.woff);
+  weight: book; }
+
+h1, h2, a {
+  font-family: "Merriweather", serif; }
+
+h2 {
+  text-transform: uppercase; }
+
+a {
+  font-size: 18px; }
+
+p {
+  font-family: CooperHewitt; }
+
+img {
+  width: 100%; }
+
+section {
+  padding: 20px 25px; }
+
+header .top-nav {
+  background-color: black;
+  padding: 20px 30px; }
+
+.primary-btn {
+  padding: 14px 20px;
+  background-color: #e0ec7b;
+  color: black;
+  text-transform: uppercase; }
+
+.primary-btn:hover {
+  color: black;
+  text-decoration: none;
+  opacity: 0.8; }
+
+.primary-bg {
+  background-color: #9ebbc3; }
+
+.secondary-bg {
+  background-color: #bedde5; }
+
+/************	LAYOUT
+\************/
+section .title {
+  text-align: center; }
+
+header .logo {
+  float: left; }
+
+.top-nav .logo {
+  padding: 0; }
+
+.menu li {
+  display: inline;
+  padding: 20px 25px;
+  list-style: none;
+  text-align: center;
+  text-transform: uppercase; }
+
+.menu li a {
+  color: white; }
+
+.hero {
+  display: inline-block;
+  width: 100%;
+  padding: 20px 25px; }
+
+.hero .content {
+  float: left;
+  width: 50%;
+  text-transform: capitalize; }
+
+.awards .image li {
+  display: inline-block;
+  overflow: hidden;
+  width: 23%;
+  height: 100px;
+  text-indent: -9999px;
+  white-space: nowrap;
+  list-style-type: none;
+  background-size: 100px 100px;
+  background-repeat: no-repeat; }
+
+.awards .image li:first-child {
+  background-image: url("../img/award01.png"); }
+
+.awards .image li:nth-child(2) {
+  background-image: url("../img/award02.png"); }
+
+.awards .image li:nth-child(3) {
+  background-image: url("../img/award03.png"); }
+
+.awards .image li:last-child {
+  background-image: url("../img/award04.png"); }
+
+.stats .bg-img {
+  text-indent: -9999px;
+  white-space: nowrap;
+  background-image: url("../img/construction_lawyer.jpg"); }
+
+.center-btn {
+  text-align: center; }
+
+footer .contact .logo img {
+  max-width: 200px; }
+
+footer .contact li {
+  list-style-type: none; }
+
+footer .contact a {
+  color: white; }
+
+footer .social-media li {
+  display: inline-block; }
+
+footer {
+  text-align: center; }
+
+#myChart {
+  width: 400px;
+  height: 400px; }
